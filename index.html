@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Purcade Games</title>
+<meta name="description" content="Purcade Games – das Ein-Personen-Studio von Sezgin Purc. In Entwicklung: Volt Works, ein Idle-Tycoon rund um Elektrotechnik.">
+<link rel="icon" href="img/voltworks-icon.png">
+<style>
+  :root { --bg: #f6f7f9; --fg: #1b1f27; --muted: #5b6474; --card: #ffffff; --line: #dfe3ea; --accent: #2f5fb3; --tag-bg: #e6edf8; --tag-fg: #24467f; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #171a22; --fg: #e8ecf3; --muted: #9aa4b5; --card: #1f232e; --line: #2e3442; --accent: #8fb3ff; --tag-bg: #26314a; --tag-fg: #b9cdf6; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 860px; margin: 0 auto; padding: 40px 16px 64px; }
+  h1 { font-size: 2.1rem; line-height: 1.2; margin: 0 0 6px; }
+  h2 { font-size: 1.3rem; margin: 44px 0 12px; }
+  h3 { font-size: 1.15rem; margin: 0 0 4px; }
+  p { margin: 0 0 12px; }
+  a { color: var(--accent); }
+  .lead { color: var(--muted); font-size: 1.1rem; max-width: 60ch; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 20px; }
+  .game { display: flex; gap: 18px; align-items: flex-start; }
+  .game img.icon { width: 96px; height: 96px; border-radius: 22px; flex: none; }
+  .tag { display: inline-block; background: var(--tag-bg); color: var(--tag-fg); border-radius: 999px; padding: 2px 12px; font-size: 0.85rem; margin: 0 0 10px; }
+  .shots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 18px; }
+  .shots img { width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--line); display: block; }
+  .en { color: var(--muted); font-size: 0.95rem; }
+  footer { color: var(--muted); margin-top: 48px; font-size: 0.92rem; border-top: 1px solid var(--line); padding-top: 16px; }
+  @media (max-width: 560px) { .game { flex-direction: column; } .shots { gap: 8px; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Purcade Games</h1>
+  <p class="lead">Das Ein-Personen-Studio von Sezgin Purc. Hier entstehen kleine Spiele für das Handy – zuerst eines, das Elektrotechnik zum Spiel macht.</p>
+
+  <h2>Spiele</h2>
+  <div class="card">
+    <div class="game">
+      <img class="icon" src="img/voltworks-icon.png" alt="App-Symbol von Volt Works: ein Zahnrad mit Blitz">
+      <div>
+        <span class="tag">In Entwicklung · Android</span>
+        <h3>Volt Works</h3>
+        <p>Ein Idle-Tycoon im Hochformat. Du beginnst mit Verbindungsklemmen und Kippschaltern in der Garage, stellst einen Lehrling ein, erfüllst Aufträge von der Pinnwand und arbeitest dich durch die Tech-Ären – von der Relaistechnik über den Steuerungsbau zur Automatisierung.</p>
+        <p>Deine Werkstatt arbeitet weiter, während du weg bist. Das Spiel ist kostenlos und kommt ohne Konto aus. Werbung gibt es nur, wenn du sie selbst für eine Belohnung startest.</p>
+      </div>
+    </div>
+    <div class="shots">
+      <img src="img/werkstatt.png" alt="Volt Works: die Werkstatt mit Verbindungsklemme, Kippschalter, Relais und Schütz" width="540" height="1200" loading="lazy">
+      <img src="img/upgrades.png" alt="Volt Works: Upgrades wie Lehrling, Lötstation und Geselle" width="540" height="1200" loading="lazy">
+      <img src="img/auftraege.png" alt="Volt Works: die Pinnwand mit Aufträgen und einem Bonus-Auftrag" width="540" height="1200" loading="lazy">
+    </div>
+  </div>
+  <p class="en" lang="en" style="margin-top:14px">In English: Purcade Games is the one-person studio of Sezgin Purc from Germany. Currently in development: <strong>Volt Works</strong>, a free idle tycoon game for Android about electrical engineering.</p>
+
+  <h2>Kontakt</h2>
+  <p>E-Mail: <a href="mailto:purcade.games@gmail.com">purcade.games@gmail.com</a></p>
+
+  <h2>Datenschutz</h2>
+  <p>Die Datenschutzerklärung für Volt Works steht hier: <a href="https://saftkinn.github.io/voltworks-datenschutz/">Datenschutzerklärung Volt Works</a>.</p>
+  <p>Diese Website setzt keine Cookies und lädt keine Inhalte von Dritten. Sie liegt bei GitHub Pages (GitHub, Inc., USA); beim Aufruf verarbeitet GitHub technisch notwendige Zugriffsdaten wie deine IP-Adresse.</p>
+
+  <h2 id="impressum">Impressum</h2>
+  <div class="card">
+    <p>Angaben gemäß § 5 DDG</p>
+    <p>Sezgin Purc<br>
+    Landsbergerstraße 102<br>
+    86343 Königsbrunn<br>
+    Deutschland</p>
+    <p style="margin-bottom:0">E-Mail: <a href="mailto:purcade.games@gmail.com">purcade.games@gmail.com</a></p>
+  </div>
+
+  <footer>© 2026 Purcade Games · <a href="#impressum">Impressum</a> · <a href="https://saftkinn.github.io/voltworks-datenschutz/">Datenschutz</a></footer>
+</main>
+</body>
+</html>
