@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 470" role="img" aria-label="Purcade Games"><g transform="rotate(-5 256 240)">
+<g fill="#F4ECDD"><rect x="186" y="26" width="40" height="110" rx="20"/><rect x="286" y="26" width="40" height="110" rx="20"/></g>
+<rect x="136" y="110" width="240" height="220" rx="52" fill="#FFC800" stroke="#F4ECDD" stroke-width="24"/>
+<rect x="168" y="142" width="176" height="156" rx="30" fill="#FFC800"/>
+<rect x="208" y="176" width="20" height="46" rx="10" fill="#12161C"/><rect x="284" y="176" width="20" height="46" rx="10" fill="#12161C"/>
+<path d="M214 240 Q256 300 298 240 Z" fill="#12161C" stroke="#12161C" stroke-width="10" stroke-linejoin="round"/>
+<path d="M236 266 Q256 280 276 266 Q256 256 236 266Z" fill="#E5482D"/>
+</g>
+<g fill="none" stroke="#F4ECDD" stroke-width="30" stroke-linecap="round" stroke-linejoin="round">
+<path d="M136 256 L72 212"/><path d="M384 236 L446 196"/>
+<path d="M210 344 L176 438 L134 444"/><path d="M304 338 L338 416 L386 420"/></g>
+<g fill="#FFC800"><path d="M432 90 l32 -46 l14 10 l-30 50z"/><path d="M456 142 l48 -26 l8 16 l-48 24z"/><path d="M66 118 l-34 -38 l14 -12 l34 40z"/></g></svg>
